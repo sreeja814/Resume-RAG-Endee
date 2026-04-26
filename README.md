@@ -1,12 +1,12 @@
-# 📄 Resume RAG Assistant using Endee
+# 📄RAG Assistant using Endee
 
 A Streamlit-based AI application that lets users upload a resume PDF, store its embeddings in **Endee Vector Database**, and ask natural-language questions about the resume using **RAG (Retrieval-Augmented Generation)**.
 
 ## Features
 
-- Upload a PDF resume
+- Upload a PDF 
 - Extract text from the PDF
-- Split the resume into chunks
+- Split the data into chunks
 - Generate embeddings using Sentence Transformers
 - Store vectors in Endee
 - Retrieve the most relevant chunks for a question
@@ -40,7 +40,7 @@ A Streamlit-based AI application that lets users upload a resume PDF, store its 
 
 ## How It Works
 
-1. The user uploads a resume PDF.
+1. The user uploads a  PDF.
 2. The app extracts text from the PDF.
 3. The extracted text is split into smaller chunks.
 4. Each chunk is converted into an embedding vector.
@@ -136,13 +136,12 @@ For a cleaner repository, keep:
 - helper test scripts if needed
 
 Avoid uploading:
-- personal PDF resumes
+- personal PDF 
 - generated runtime files like `uploaded_resume.pdf`
 - API keys or secret files
 
 ## Future Improvements
 
-- Add support for multiple uploaded resumes
 - Add chat history
 - Improve PDF text cleaning
 - Add better chunking strategies
